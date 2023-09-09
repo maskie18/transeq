@@ -1,0 +1,525 @@
+
+a:hover{
+    opacity: 0.8;
+}
+
+
+nav img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.header-section{
+    
+    width: 100%;
+    background-image: url("./image/AdobeStock_272640336-scaled.jpeg") ;
+    
+}
+
+/* .header-section .container{
+    flex-direction: column;
+    width: 100%;
+} */
+
+/* mailing-list */
+
+.mailing-list .container{
+    vertical-align: middle;
+    box-sizing: border-box;
+}
+
+
+
+/* blog section */
+
+
+
+.blog .container .blog-info1 img{
+    width: 20rem;
+}
+
+.blog .container .blog-info2 img{
+    width: 20rem;
+}
+
+.blog .container .blog-info3 img{
+    width: 20rem;
+}
+
+.blog .container a{
+    text-decoration: none;
+    cursor: pointer;
+}
+
+
+
+
+
+/* footer */
+
+footer .container ul{
+    list-style-type: none;
+}
+
+footer .container ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+
+
+/* media query small mobile phones */
+
+@media screen and (min-width:360px) and (max-width:480px) {
+    
+    .header-section .container div{
+        flex-direction: column;
+    }
+
+    .header-section .container div img{
+        width: 100%;
+    }
+
+    .mailing-list .container{
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+    .blog .container{
+        flex-direction: column;
+    }
+
+    .blog .container .blog-info1{
+        flex-direction: column;
+    }
+
+    .blog .container .blog-info2{
+        flex-direction: column;
+    }
+
+    .blog .container .blog-info3{
+        flex-direction: column;
+    }
+
+
+    footer .container div{
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+
+
+
+
+
+    /* support file */
+
+
+    .support .container img{
+        width: 100%;
+    }
+
+
+    /* understanding-transpeople */
+
+    
+
+    .understanding-transpeople .container{
+        flex-direction: column;
+    }
+
+    .understanding-transpeople .container .image img{
+        width: 100%;
+    }
+
+
+
+    /* health-care */
+
+
+
+
+    .health-care .container{
+        flex-direction: column-reverse;
+    }
+
+
+    .health-care .container div img{
+        width: 100%;
+    }
+
+
+
+    /* medicare */
+
+
+
+
+    .medicare .container{
+        flex-direction: column-reverse;
+    }
+
+    .medicare .container div img{
+        width: 100%;
+    }
+
+
+
+
+
+     /* ***Issues*** */
+
+
+     .issues .container{
+        flex-direction: column;
+    }
+
+    .issues .container div img{
+        width: 100%;
+    }
+
+
+
+    /* anti-violence */
+
+
+    .anti-violence .container{
+        flex-direction: column;
+    }
+
+    .anti-violence .container div img{
+        width: 100%;
+    }
+
+
+}
+
+
+/* media query large mobile phones */
+
+@media screen and (min-width:481px) and (max-width:576px) {
+    
+    .header-section .container div{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .header-section .container{
+        width: 100%;
+    }
+
+    .header-section .container div img{
+        width: 25rem;
+    }
+
+    .mailing-list .container{
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+    .blog .container{
+        flex-direction: column;
+    }
+
+    .blog .container .blog-info1{
+        flex-direction: column;
+    }
+
+    .blog .container .blog-info2{
+        flex-direction: column;
+    }
+
+    .blog .container .blog-info3{
+        flex-direction: column;
+    }
+
+
+    footer .container div{
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+
+
+
+
+    /* support file */
+
+
+    .support .container img{
+        width: 100%;
+    }
+
+
+   
+
+    /* understanding-transpeople */
+
+
+    .understanding-transpeople .container{
+        flex-direction: column;
+    }
+
+    .understanding-transpeople .container .image img{
+        width: 100%;
+    }
+
+
+    /* health-care */
+
+
+
+
+    .health-care .container{
+        flex-direction: column-reverse;
+    }
+
+
+    .health-care .container div img{
+        width: 100%;
+    }
+
+
+     /* medicare */
+
+
+
+
+     .medicare .container{
+        flex-direction: column-reverse;
+    }
+
+    .medicare .container div img{
+        width: 100%;
+    }
+
+
+
+
+     /* ***Issues*** */
+
+
+     .issues .container{
+        flex-direction: column;
+    }
+
+    .issues .container div img{
+        width: 100%;
+    }
+    
+
+    /* anti-violence */
+
+
+    .anti-violence .container{
+        flex-direction: column;
+    }
+
+    .anti-violence .container div img{
+        width: 100%;
+    }
+
+
+
+}
+
+
+
+/* media query all ipad sizes */
+
+/* @media screen and (min-width:577px) and (max-width:940px) {
+    
+    .header-section .container div{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .header-section .container{
+        width: 100%;
+    }
+
+    .header-section .container div img{
+        width: 25rem;
+    }
+
+    .mailing-list .container{
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+    .blog .container{
+        flex-direction: column;
+    }
+
+    .blog .container .blog-info1{
+        flex-direction: column;
+    }
+
+    .blog .container .blog-info2{
+        flex-direction: column;
+    }
+
+    .blog .container .blog-info3{
+        flex-direction: column;
+    }
+
+
+    footer .container div{
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+
+
+
+
+
+
+} */
+
+
+
+/* media query all ipad sizes */
+
+
+
+@media screen and (min-width:577px) and (max-width:940px) {
+    
+    .header-section .container div{
+       
+        justify-content: center;
+    }
+
+    .header-section .container{
+        width: 100%;
+    }
+
+    .header-section .container div img{
+        width: 100%;
+    }
+
+    .mailing-list .container{
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+        
+    }
+
+    .blog .container{
+        flex-direction: column;
+    }
+
+
+    .blog .container .blog-info1{
+        flex-direction: column;
+       
+    }
+
+    .blog .container .blog-info2{
+        flex-direction: column;
+    }
+
+    .blog .container .blog-info3{
+        flex-direction: column;
+    }
+
+
+    footer .container div{
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+
+
+
+    /* support file */
+
+
+    .support .container img{
+        width: 100%;
+    }
+
+
+    /* understanding-transpeople */
+
+    
+
+    .understanding-transpeople .container{
+        flex-direction: column-reverse;
+    }
+
+    .understanding-transpeople .container .image img{
+        width: 100%;
+    }
+
+
+
+
+    /* health-care */
+
+
+
+
+    .health-care .container{
+        flex-direction: column-reverse;
+    }
+
+
+    .health-care .container div img{
+        width: 100%;
+    }
+
+
+
+     /* medicare */
+
+
+
+
+     .medicare .container{
+        flex-direction: column;
+    }
+
+    .medicare .container div img{
+        width: 100%;
+    }
+
+
+
+
+    /* ***Issues*** */
+
+
+    .issues .container{
+        flex-direction: column;
+    }
+
+    .issues .container div img{
+        width: 100%;
+    }
+
+
+
+
+    /* anti-violence */
+
+
+    .anti-violence .container{
+        flex-direction: column;
+    }
+
+    .anti-violence .container div img{
+        width: 100%;
+    }
+
+
+
+}
